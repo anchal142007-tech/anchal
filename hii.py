@@ -13,3 +13,15 @@ if not my_api_key:
 client = Groq(api_key=my_api_key)
 
 model_name = "llama-3.3-70b-versatile"
+
+message_1 = {
+    "role": "system",
+    "content": "You are a brand name suggester who suggest name for a brand in one word.",
+}
+
+message_2 = {
+    "role": "user",
+    "content": "Suggest a brand name for my food stall."
+}
+
+messages = [message_1, message_2]
