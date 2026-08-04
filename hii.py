@@ -19,6 +19,7 @@ message_1 = {
     "content": "You are a brand name suggester who suggest name for a brand in one word.",
 }
 
+
 message_2 = {
     "role": "user",
     "content": "Suggest a brand name for my food stall."
