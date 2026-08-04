@@ -25,3 +25,11 @@ message_2 = {
 }
 
 messages = [message_1, message_2]
+
+response = client.chat.completions.create(
+    model=model_name,
+    messages=messages,  
+    temperature=0.7,
+)
+
+
